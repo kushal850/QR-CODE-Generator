@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--  -->
+  <h1 class="h11">QR-CODE Generator</h1>
+  <form action="/submit" method="POST" class="msubmit">
+    <label for="street" class="text"><b>YOUR TEXT:</b></label>
+    <input type="text" name="street" required class="street">
+  
+    <input type="submit" value="generate" class="submit">
+  </form>
+
+
+
+  <% if(locals.cond) { %>
+    
+    <img src="qr_img.png" class="image">
+    <form action="/download" method="post" class="mdownload">
+    <input type="submit" value="download" class="download">
+  </form>
+  <!--  -->
+  
+  
+
+  
+<% } else %>
+<% { %>
+  
+<% } %>
+
+  
+</body>
+
+</html>
