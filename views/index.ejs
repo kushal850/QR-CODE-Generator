@@ -12,8 +12,8 @@
   <!--  -->
   <h1 class="h11">QR-CODE Generator</h1>
   <form action="/submit" method="POST" class="msubmit">
-    <label for="street" class="text"><b>YOUR TEXT:</b></label>
-    <input type="text" name="street" required class="street">
+    
+    <input type="text" placeholder="enter your text" name="street" required class="street">
   
     <input type="submit" value="generate" class="submit">
   </form>
@@ -22,7 +22,7 @@
 
   <% if(locals.cond) { %>
     
-    <img src="qr_img.png" class="image">
+    <div class="div"><img src="qr_img.png" class="image"></div>
     <form action="/download" method="post" class="mdownload">
     <input type="submit" value="download" class="download">
   </form>
