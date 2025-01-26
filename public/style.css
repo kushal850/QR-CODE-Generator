@@ -74,8 +74,8 @@ body{
     /* margin-left: 10px; */
     width: 12%;
     height: 3%;
-    min-height: 5px;
-    min-width: 70px;
+    min-height: 8px;
+    min-width: 85px;
     border-radius: 20px;
     border: solid;
     border-color: black;
