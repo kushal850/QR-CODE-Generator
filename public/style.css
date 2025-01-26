@@ -74,7 +74,7 @@ body{
     /* margin-left: 10px; */
     width: 12%;
     height: 3%;
-    min-height: 20px;
+    min-height: 40px;
     min-width: 100px;
     border-radius: 20px;
     border: solid;
@@ -82,6 +82,7 @@ body{
     
     margin-bottom:30%;
     margin-top: 2.5%;
+    margin-top: 100px
 }
 
 .download{
