@@ -1,5 +1,4 @@
 *{
-    /* background-color: rgb(245, 231, 231); */
     align-items: center;
     text-align: center;
     display: inline;
@@ -15,16 +14,14 @@ body{
 
 
 .h11{
+    color: aquamarine;
     text-align: center;
     display: block;
-    margin: 30px;
-    
+    margin-bottom: 30px;
+    margin-top: 10px;  
 }
 
 .image{
-    
-   
-   
    margin-top: 6%;
     padding: 0%;
     width: 75%;
@@ -40,7 +37,6 @@ body{
     align-self: auto;
     height: 30px;
     width: 50%;
-    /* margin-bottom: 20px; */
     margin-left: 20px;
     text-align: left;
     border-radius: 10px;
@@ -59,19 +55,17 @@ body{
     text-align: center;
     background-color: rgba(202, 1, 55, 0);
     z-index: 5;
-    /* height: 200; */
     margin-bottom: 2%;
     
     
 } 
 
 .submit {
+    background-color: aquamarine;
     position:absolute;
     left: 44%;
     right: 44%;
     display: block;
-    /* margin: 40px; */
-    /* margin-left: 10px; */
     width: 12%;
     height: 3%;
     min-height: 5px;
@@ -79,15 +73,12 @@ body{
     border-radius: 20px;
     border: solid;
     border-color: black;
-    
     margin-bottom:30%;
     margin-top: 2.5%;
+    filter: drop-shadow(3px 3px 10px white);
 }
 
 .download{
-    /* position: absolute;
-    left: 50%;
-    right: 50%; */
     display: inline;
     min-width: 100px;
     min-height: 40px;
@@ -120,8 +111,4 @@ body{
 
 .street:hover{
     border: solid 5px black;
-}
-
-@media screen {
-    
 }
