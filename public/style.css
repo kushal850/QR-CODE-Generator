@@ -68,8 +68,8 @@ body{
     display: block;
     width: 12%;
     height: 3%;
-    min-height: 5px;
-    min-width: 70px;
+    min-height: 40px;
+    min-width: 100px;
     border-radius: 20px;
     border: solid;
     border-color: black;
